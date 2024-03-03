@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
+import Search from "./Search";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Weather Search Engine</h1>
+      <Search />
+      <footer>
+        <smaller>
+          <a href="">
+            Open Source Code
+          </a>{" "}
+          byEmily Short. Hosted on{" "}
+          <a href="">Netlify.</a>
+        </smaller>
+      </footer>
     </div>
   );
 }
-
-export default App;

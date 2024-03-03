@@ -1,0 +1,15 @@
+.Weather {
+    font-family: sans-serif;
+    text-align: center;
+    background-image: url("weather.jpeg");
+  }
+  ul {
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+  form {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
