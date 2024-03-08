@@ -1,6 +1,7 @@
 import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import Weather from "./Weather";
+import Weather from "./Weather.js";
+import"./Weather.css";
 import "./index.css";
 
 const rootElement = document.getElementById("root");
