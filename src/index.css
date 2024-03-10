@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+footer{
+  margin-top: 320px;
+  position: absolute;
+    text-decoration: none;
+}
+
+.a:hover{
+  cursor: pointer;
+}
