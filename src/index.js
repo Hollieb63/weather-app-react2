@@ -12,7 +12,7 @@ root.render(
     <h1>Weather App</h1>
     <Weather />
     <footer>
-  <small>Open-sourced on <a href="https://github.com/Hollieb63/weather-app-react2" target="_blank">GitHub</a> by Hollie Bradshaw</small></footer>
+  <small>Open-sourced on <a href="https://github.com/Hollieb63/weather-app-react2" target="_blank" rel="noopener noreferrer">GitHub</a> by Hollie Bradshaw</small></footer>
   
   </StrictMode>
 );
